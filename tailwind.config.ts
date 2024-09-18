@@ -11,7 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#9c9ba1",
       },
+      backgroundColor: {
+        primary: "#2dd0cc"
+      },
+      fontFamily: {
+        Poppins: "Poppins"
+      }
     },
   },
   plugins: [],
