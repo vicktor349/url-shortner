@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <div>
+        <div className='mx-48 mt-10 font-Poppins'>
             <Navbar />
             {children}
         </div>
