@@ -18,6 +18,12 @@ const config: Config = {
       },
       fontFamily: {
         Poppins: "Poppins"
+      },
+      screens: {
+        "3xl": "1792px",
+        "ssm": "480px",
+        "sssm": "384px",
+        "ssssm": "360px"
       }
     },
   },
